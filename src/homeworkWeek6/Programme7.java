@@ -1,0 +1,51 @@
+package homeworkWeek6;
+/*
+Write a program to insert any temperature value in degree Fahrenheit and
+convert to degree Celsius ((F − 32) × 5/9 = 0°C).
+ */
+
+import java.util.Scanner;
+
+public class Programme7 {
+
+    public static void test1() {  //static method
+
+        Scanner input = new Scanner(System.in);
+        System.out.print("Input a degree in Fahrenheit: ");
+        float fahrenheit = input.nextFloat();
+        double celsius = ((fahrenheit - 32) * 5 / 9.0);
+        System.out.println(fahrenheit + " degree Fahrenheit is equal to " + celsius + " in Celsius");
+
+    }
+
+    public static void main(String[] arg) { //main method
+
+        test1(); // static method call directly
+
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
